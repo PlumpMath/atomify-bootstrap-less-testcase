@@ -1,0 +1,15 @@
+diff --git a/package.json b/package.json
+index 735c04e..11dd4cc 100644
+--- a/package.json
++++ b/package.json
+@@ -16,6 +16,10 @@
+       "output": "dist/app.js"
+     },
+     "css": {
++      "assets": {
++        "dest": "dist/",
++        "prefix": "./"
++      },
+       "entry": "app/css/index.less",
+       "output": "dist/app.css"
+     }
